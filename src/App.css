@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.jumbotron {
+    background-image: url('path/to/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #343a40;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
